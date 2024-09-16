@@ -96,8 +96,9 @@
 		097937B72C8F59AC00E1AF04 /* MentorProject */ = {
 			isa = PBXGroup;
 			children = (
-				097937E52C8F5B9200E1AF04 /* DomainServices */,
-				097937E42C8F5B8900E1AF04 /* Entity */,
+				097937EA2C98B1F000E1AF04 /* Presentation */,
+				097937E92C98B1E700E1AF04 /* Domain */,
+				097937E82C98B1DC00E1AF04 /* Data */,
 				097937B82C8F59AC00E1AF04 /* MentorProjectApp.swift */,
 				097937BA2C8F59AC00E1AF04 /* ContentView.swift */,
 				097937BC2C8F59AC00E1AF04 /* Item.swift */,
@@ -132,18 +133,73 @@
 			path = MentorProjectUITests;
 			sourceTree = "<group>";
 		};
-		097937E42C8F5B8900E1AF04 /* Entity */ = {
+		097937E82C98B1DC00E1AF04 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				097937F02C98B2AD00E1AF04 /* Repositories */,
+				097937EF2C98B2A200E1AF04 /* DataSources */,
 			);
-			path = Entity;
+			path = Data;
 			sourceTree = "<group>";
 		};
-		097937E52C8F5B9200E1AF04 /* DomainServices */ = {
+		097937E92C98B1E700E1AF04 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				097937EE2C98B28F00E1AF04 /* UseCases */,
+				097937ED2C98B28600E1AF04 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		097937EA2C98B1F000E1AF04 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				097937EC2C98B27900E1AF04 /* Scenes */,
+				097937EB2C98B27000E1AF04 /* Modules */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		097937EB2C98B27000E1AF04 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = DomainServices;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		097937EC2C98B27900E1AF04 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		097937ED2C98B28600E1AF04 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		097937EE2C98B28F00E1AF04 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		097937EF2C98B2A200E1AF04 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		097937F02C98B2AD00E1AF04 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
